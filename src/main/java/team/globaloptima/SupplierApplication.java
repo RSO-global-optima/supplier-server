@@ -17,7 +17,7 @@ import javax.ws.rs.core.Application;
 @ApplicationPath("v1")
 @OpenAPIDefinition(info = @Info(title = "SupplierApi", version = "v1.0.0",
         contact = @Contact(), license = @License(name="No License")),
-        servers = @Server(url = "http://localhost:8080/v1"),
+        servers = @Server(url = "http://localhost:8082/v1"),
         security = @SecurityRequirement(name = "openid-connect"))
 public class SupplierApplication extends Application{
 
